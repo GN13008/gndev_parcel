@@ -1,0 +1,22 @@
+@tailwind base;
+
+@layer base {
+  h1 {
+    @apply text-5xl font-sans font-light text-gray-900;
+  }
+  h2 {
+    @apply text-3xl font-sans font-light text-gray-900;
+  }
+  h3 {
+    @apply text-xl text-gray-900;
+  }
+  p {
+    @apply text-lg font-sans font-light text-gray-900;
+  }
+  a {
+    @apply text-blue-600 text-gray-900 decoration-0;
+  }
+}
+
+@tailwind components;
+@tailwind utilities;
