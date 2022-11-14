@@ -1772,4 +1772,21 @@ a {
   --tw-ring-color: rgb(229 231 235 / var(--tw-ring-opacity));
 }
 
+@media (min-width: 640px) {
+  .sm\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .sm\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .sm\:text-7xl {
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+}
+
 /*# sourceMappingURL=index.61d3354a.css.map */
